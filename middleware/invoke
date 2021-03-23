@@ -1,5 +1,5 @@
 #!/bin/sh
 
-/usr/bin/invoke_app "$@" -C "start_jupyter -t -A -T @tool New_demo\ 2.ipynb" \
+/usr/bin/invoke_app "$@" -C "start_jupyter -t -A -T @tool CombinedTwotools.ipynb" \
 -t tplvaranlz \
 -u anaconda-6 \
